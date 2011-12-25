@@ -1,0 +1,39 @@
+# interactivesystem
+sudo
+etcnet-defaults-server
+
+# kernel and modules
+
+# network tools
+dhcpcd
+bind-utils
+ethtool
+
+# disk tools
+jfsutils
+reiserfsprogs
+btrfs-progs
+
+# debug
+tcpdump
+netconsole
+
+# docs
+man-pages
+
+alterator-grub
+alterator-net-eth
+
+quota
+
+bridge-utils
+etckeeper
+
+screen
+openvpn
+gdisk
+agetty
+zsh
+
+# NetStyle
+kannel

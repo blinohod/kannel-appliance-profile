@@ -1,0 +1,5 @@
+#!/bin/sh
+/sbin/chkconfig network on ||:
+/sbin/chkconfig syslogd on ||:
+/sbin/chkconfig random on ||:
+

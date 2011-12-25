@@ -1,0 +1,155 @@
+# 3ware RAID monitoring software
+#@INTERNAL@tw_cli
+
+# interactivesystem
+anacron
+#apt-conf-@APTCONF_PACKAGE@
+#apt-conf-sisyphus
+apt-conf-branch
+apt
+glibc-gconv-modules
+glibc-locales
+glibc-nss
+glibc-utils
+interactivesystem
+kbd
+setarch
+shadow-suite
+#bc
+sysklogd
+udev
+udev_static-addon
+pciutils
+
+
+make-initrd
+make-initrd-lvm
+#@NOPLYMOUTH@make-initrd-plymouth
+
+# boot
+memtest86+
+os-prober
+
+# editor
+vim-console
+
+# network tools
+curl
+elinks
+etcnet
+hostinfo
+iptables
+ipset
+xtables-addons
+iputils
+pciutils
+acpid-events-power
+sysstat
+iotop
+lftp
+mailx
+netcat
+netlist
+nfs-utils
+openssh-clients
+rsync
+traceroute
+vlan-utils
+ntpdate
+tzdata
+tcpdump
+ifplugd
+
+# disk tools
+eject
+hdparm
+lvm2
+mdadm
+mtools
+ntfs-3g
+sfdisk
+fdisk
+usbutils
+xfsprogs
+smartmontools
+reiserfsprogs
+jfsutils
+multipath-tools
+
+# scsi
+sdparm
+sg3_utils
+
+
+# servers
+openssh-server
+openssh-blacklist
+sshutout
+postfix
+openntpd
+irqbalance
+cgroup
+
+# security
+openssl
+osec-mailreport
+audit
+
+# debug
+strace
+
+# alterator stage3
+#installer-@INSTALLER@-stage3
+#installer-feature-copy-udev-rules-stage3
+#installer-feature-setup-network-stage3
+
+# ?
+acpid
+mkbootflash
+rp-pppoe-base
+
+# ldap
+nss_ldap
+pam_ldap
+
+# haldbus :(
+dbus
+
+# mc :(
+mc
+
+#alsa-utils
+
+# kernel/firmware
+firmware-ipw2100
+firmware-ipw2200
+firmware-iwl3945
+firmware-iwl4965
+firmware-iwl5000
+firmware-acx100
+firmware-prism54
+firmware-rt73
+update-kernel
+pciids
+
+# compression
+cpio
+p7zip
+tar
+unzip
+zip
+xz
+
+bridge-utils
+
+gpm
+expect
+
+irqbalance
+
+lm_sensors3
+system-report
+
+# For OpenVZ
+vzdump
+vzctl

@@ -1,0 +1,16 @@
+kernel-image-ovz-el
+kernel-modules-alsa-ovz-el
+kernel-modules-dahdi-ovz-el
+kernel-modules-drm-ovz-el
+kernel-modules-ipset-ovz-el
+kernel-modules-kvm-ovz-el
+kernel-modules-nvidia-ovz-el
+kernel-modules-tp_smapi-ovz-el
+kernel-modules-v4l-ovz-el
+kernel-modules-virtualbox-ovz-el
+
+kernel-modules-virtualbox-addition-ovz-el
+#kernel-modules-xtables-addons-ovz-el
+#@X86_64_ONLY@kernel-modules-kvm-ovz-el
+
+#firmware-linux

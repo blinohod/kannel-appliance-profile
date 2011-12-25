@@ -1,0 +1,7 @@
+#!/bin/sh
+# TODO: fix!
+# обычно использую bind какой-нибудь для этого,
+# но вообще-то надо здесь использовать resolvconf
+echo -n > /etc/resolv.conf
+echo -e "127.0.0.1\tlocalhost.localdomain localhost" > /etc/hosts
+

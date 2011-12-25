@@ -1,0 +1,7 @@
+#!/bin/sh
+# уж не помню откуда берется это бага, но вот берется откуда-то
+chown -R root:auth /etc/tcb/root
+
+# этот хак кажется уже не нужен, или еще нужен?
+rm -f /etc/mtab && ln -s /proc/mounts /etc/mtab
+

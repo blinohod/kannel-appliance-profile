@@ -1,0 +1,26 @@
+#appliance-ve-std
+#appliance-base-admin-ve
+
+# при загрузке система пытается делать fsck
+# и будет ругаться нехорошими словами на отсутствие fsck.ext4
+e2fsprogs
+
+# а еще нам очень пригодится консоль, когда мы все-таки загрузимся
+mingetty
+
+# useful for testing in virtualbox
+virtualbox-guest-additions
+
+# Dilog
+dialog
+
+# нынче пошла мода на всякие upstart, systemd и прочие страшные слова если мы
+# не укажем что именно нам нужно -- что там вытянется по зависимостям науке
+# неизвестно
+sysvinit
+
+# без fdisk'а жизнь весьма трудна :)
+fdisk
+cfdisk
+sfdisk
+

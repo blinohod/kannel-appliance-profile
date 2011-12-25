@@ -1,0 +1,9 @@
+#!/bin/sh
+# апач пытается создавать SSL-ключики при установке,
+# мы же не хотим чтобы у всех наших серверов были одни и те же ключики?
+for s in server.crt server.csr server.key; do
+	if [ -f /etc/httpd/conf/ssl/$s ]; then
+		rm -f /etc/httpd/conf/ssl/$s
+	fi
+done
+
